@@ -6,6 +6,7 @@ class PgLicht < Formula
   license "Apache-2.0"
 
   depends_on "cmake" => :build
+  depends_on "pkg-config" => :build
   depends_on "libpqxx"
   depends_on "nlohmann-json"
 
