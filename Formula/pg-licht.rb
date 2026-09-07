@@ -1,8 +1,8 @@
 class PgLicht < Formula
   desc "PostgreSQL MCP server for schema exploration over JSON-RPC 2.0"
   homepage "https://github.com/sqlambda/pg_licht"
-  url "https://github.com/sqlambda/pg_licht/archive/refs/tags/v4.2.1.tar.gz"
-  sha256 "9fb7380d858969083b8f9c3dc72e21efafb1e2ec60d278fe5fff48866b38a07d"
+  url "https://github.com/sqlambda/pg_licht/archive/refs/tags/v4.2.2.tar.gz"
+  sha256 "bab04475bad5498307301188f60ad5e1b60977a98944d2d77399e6ca16b1cfde"
   license "Apache-2.0"
 
   depends_on "cmake" => :build
